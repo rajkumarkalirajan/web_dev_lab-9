@@ -9,7 +9,7 @@ function init(){
 		d4.addEventListener('click', myEventFunction);
 		
 		d4.addEventListener('click, function(){
-			console.log('I was clicked');
+			console.log('I was click');
 			d4.style.backgroundColor = '#C00';
 			d4.innerHTML = '<string>Goodbye</strong>';
 		});
